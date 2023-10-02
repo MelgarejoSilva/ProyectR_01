@@ -3,16 +3,17 @@ package com.example.ProyectR_01.controladores;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+//import org.springframework.web.bind.annotation.RequestMapping;
 
-@RequestMapping("/MenuPrincipal/")
+//@RequestMapping("/MenuPrincipal/")
 @Controller
 public class ControladorMenuPrincipal {
    
     
-    @GetMapping("/principal")
+    @GetMapping("/")
     public String MenuPrincipal(){
         
+//        return "index";
         return "MenuPrincipal";
     }
     
